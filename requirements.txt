@@ -1,0 +1,32 @@
+# Core Delta Lake + Spark support
+pyspark>=3.5.1
+delta-spark>=3.1.0
+
+# Data wrangling
+pandas>=1.5
+numpy>=1.23
+pyarrow>=14.0.0
+
+# ML libraries
+scikit-learn>=1.2
+mlflow>=2.9
+statsmodels
+
+# Visualization (optional for notebooks or EDA)
+matplotlib>=3.7
+seaborn>=0.12
+
+# Configuration & env
+python-dotenv>=1.0
+
+# Job orchestration (optional)
+prefect>=2.13
+
+# Notebook support (optional)
+notebook
+ipython
+ipython-sql
+
+# Optional SQL engines if needed for gold-layer exploration
+duckdb>=0.9.2
+psycopg2-binary>=2.9
